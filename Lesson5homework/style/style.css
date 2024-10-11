@@ -1,0 +1,59 @@
+img { 
+    width: 100%;
+    height: 150px;
+    display: block;
+    margin: 0px auto;
+    line-height: 0px;
+ }
+
+ p { text-align: center;
+    font-family: "Qwitcher Grypen", cursive;
+    color: #2b1e1ed9;
+    font-size: 25px;
+    background-color: rgb(251, 200, 123);
+    display: block;
+    margin: 0px;
+    padding: 0px;
+
+ }
+
+ #data {
+    width: 250px;
+    height: 250px;
+    border: 5px;
+    border-radius: 25%;
+ }
+
+ div {
+    display: flex;
+    flex-direction: row;
+   }
+
+body {
+    background-color: bisque;
+}
+
+#kk {
+    font-family: "Nunito", sans-serif;
+    text-align: left;
+    color: #2b1e1ed9;
+    font-size: 25px;
+    background-color: bisque;
+}
+
+footer {
+   background-color: rgb(251, 200, 123);
+}
+
+#kl {
+   font-family: "Nunito", sans-serif;
+   text-align: left;
+   color: #2b1e1ed9;
+   font-size: 25px;
+   background-color: rgb(251, 200, 123);
+}
+
+input[type=text] {
+   border: 3px solid rgba(243, 120, 120, 0.074);
+   border-radius: 10px;
+ }
