@@ -1,0 +1,33 @@
+h1 {color: rgb(255, 255, 255);
+    text-align: center;}
+
+
+        
+header {
+        background-image: url(https://science.nasa.gov/wp-content/uploads/2023/07/webb-flickr-52660766241-63ab077ba6-4k-slice.jpg?w=4096&format=jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+         }
+
+@keyframes galaxy {
+            from {background-color: rgb(60, 85, 107);}
+            to {background-color: purple;} }
+
+body {color: rgb(115, 112, 150);
+     background-color: rgb(36, 35, 56); }
+
+img {
+    height: 85%;
+    width: 75%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(60, 85, 107);
+    margin-top: 20px;
+    color: antiquewhite;
+    animation-name: galaxy;
+    animation-duration: 8s; 
+
+}

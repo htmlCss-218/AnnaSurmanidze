@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" > 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <style>
+       @media screen and (max-width: 767px) {
+        body { background-color: rgb(36, 35, 56)} }
+        @media screen and (max-width: 768px) {
+        body {background-color:rgb(36, 35, 56);}  }
+        @media screen and (min-width: 1024px) {
+        body {background-color:rgb(36, 35, 56); } }
+    
+        .navigation {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(60, 85, 107); 
+            animation-name: galaxy;
+            animation-duration: 8s; 
+            }
+        .navigation a {
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            display: flex; }
+
+        .navigation a:hover{
+            background-color: black; }
+
+         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prociono&display=swap');
+
+        .info { text-align: left;
+                font-size: 20px;
+                font-family: "Playfair Display", serif;
+                color: antiquewhite;
+                margin-top: 50px;
+                display: inline;
+             }
+        .main {
+            display: flex;
+        }
+        .signin {
+            display: inline-block;
+            justify-content: center;
+            font-size: 25px;
+            background-color: rgb(66, 66, 112);
+            color: antiquewhite;
+            margin-left: 40%;
+            border-radius: 5px;
+            box-shadow: 12px 12px 18px 18px #3300ff49;
+        }
+        .reg {
+            text-decoration: none;
+            color: bisque;
+        }
+        .button {
+            background-color:rgb(107, 50, 241);
+            border-radius: 5px;
+            color: rgb(226, 160, 160);
+            padding: 15px 32px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-left: 32%;
+            margin-bottom: 15px;
+        }
+        
+    </style>
+         <link rel="stylesheet" href="mainstyle.css">
+    </head>
+    <body>
+        <header>
+           <br><br> <H1> Discover the Universe, One Star at a Time </H1> <br><br>
+        </header>
+        <main>
+                <div class="navigation">
+                    <i class="fa-regular fa-heart" style="color: white; margin-top: 15px; font-size: 25px;"></i>
+                <a href="aboutus.html">About us</a>
+                <a href="informationpage.html">Information</a>
+                <a href="freepage.html">Explore the Stars</a>
+                <a href="contactus.html">Contact</a>
+                    <i class="fa-regular fa-heart" style="color: white; margin-top: 15px; font-size: 25px;"></i>
+                </div>
+                <div class="main">
+                    <img src="image/1.jpg" alt="1">
+                    <img src="image/2.jpg" alt="2">
+                    <img src="image/3.jpg" alt="3">
+                <div class="info">
+                   <b> What is a Galaxy? </b>
+                    A galaxy is a massive collection of stars, gas, dust, and dark matter, held together by gravity. Our galaxy, the Milky Way, is just one of billions in the universe. Galaxies come in various shapes, such as spiral, elliptical, and irregular. They are constantly moving, with some even colliding over time. Studying galaxies helps us understand the universe’s formation and the mysteries of dark matter.
+                </div>
+               </div> <br><br><br><br><br><br><br>
+               
+               <div class="signin">
+                <p> Sign In: <br><br>
+                    For registration click here <a class="reg" href="registration.html">Registration</a>
+                </p>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input class="button" type="submit" value="Log in">
+               </div>
+        </main>
+        <footer>
+            <p> 2024 Galaxy Explorers. All rights reserved. </p>
+        </footer>
+    </body>
+</html>
