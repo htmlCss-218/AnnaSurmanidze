@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" > 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <style>
+       @media screen and (max-width: 767px) {
+        body { background-color: rgb(36, 35, 56)} }
+        @media screen and (max-width: 768px) {
+        body {background-color:rgb(36, 35, 56);}  }
+        @media screen and (min-width: 1024px) {
+        body {background-color:rgb(36, 35, 56); } }
+
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prociono&display=swap');
+    
+        .navigation {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(60, 85, 107); 
+            animation-name: galaxy;
+            animation-duration: 8s; 
+            }
+        .navigation a {
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            display: flex; }
+
+        .navigation a:hover{
+            background-color: black; }
+
+        .info { text-align: left;
+                font-size: 20px;
+                font-family: "Playfair Display", serif;
+                color: antiquewhite;
+                margin-top: 50px;
+                display: inline;
+             }
+        .main {
+            display: flex;
+        }
+        .aboutgalaxy {
+            background-color: rgba(56, 14, 96, 0.429);
+            color: white;
+            font-size: 25px;
+            font-family: "Oswald", sans-serif;
+            text-align: center;
+        }
+        
+        .slideshow-container {
+            display: flex;
+            justify-content: center; 
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .slide {
+            display: flex;
+            justify-content: center; 
+            width: 100%;
+            height: 400px;
+            animation: slide-animation 16s infinite;
+        }
+
+        
+        @keyframes slide-animation {
+            0% { opacity: 0; }
+            10% { opacity: 1; }
+            25% { opacity: 1; }
+            35% { opacity: 0; }
+            100% { opacity: 0; }
+        }
+
+        .slideshow-container .slide:nth-child(1) {
+            animation-delay: 0s;
+        }
+        .slideshow-container .slide:nth-child(2) {
+            animation-delay: 4s;
+        }
+        .slideshow-container .slide:nth-child(3) {
+            animation-delay: 8s;
+        }
+        .slideshow-container .slide:nth-child(4) {
+            animation-delay: 12s;
+        }
+        .main {
+            display: flex;
+            justify-content: space-around;
+            gap: 25px;
+            padding: 25px;
+            border-radius: 10px;
+            background-color: rgb(55, 37, 71);
+            color: antiquewhite;
+           
+            
+        }
+        .first, .second, .third, .last{
+            display: inline-block;
+            border-radius: 15px;
+            background-color: rgb(77, 49, 103);
+            font-size: 20px;
+            box-shadow: 0 2px 8px rgb(0, 0, 0);
+        }
+        table {
+            width: 100%;
+            border-radius: 20px;
+            background-color: #0c0343;
+
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px;
+            color: rgb(14, 14, 14);
+        }
+
+        th {
+            background-color: #c243af;
+            color: rgb(0, 0, 0);
+        }
+
+        td {
+            background-color: #ac8296;
+        }
+
+            
+       
+        
+    </style>
+         <link rel="stylesheet" href="mainstyle.css">
+    </head>
+    <body>
+        <header>
+           <br><br> <H1> Discover the Universe, One Star at a Time </H1> <br><br>
+        </header>
+        <main>
+                <div class="navigation">
+                    <i class="fa-regular fa-heart" style="color: white; margin-top: 15px; font-size: 25px;"></i>
+                <a href="mainpage.html">Home</a>
+                <a href="aboutus.html">About us</a>
+                <a href="freepage.html">Explore the Stars</a>
+                <a href="contactus.html">Contact</a>
+                    <i class="fa-regular fa-heart" style="color: white; margin-top: 15px; font-size: 25px;"></i>
+                </div>
+                <div class="aboutgalaxy">
+                   <b> The Beauty of Galaxies </b> <br>
+Galaxies are vast collections of stars, gas, dust, and dark matter, bound together by gravity. The Milky Way, our own galaxy, is just one of billions in the universe. Galaxies come in many shapes and sizes, from spirals like ours to elliptical and irregular forms. Exploring them helps us understand the universe's structure and origins.
+                </div>
+               <div class="slideshow-container">
+                <img src="image/5.jpg" class="slide" alt="5">
+                <img src="image/6.jpg" class="slide" alt="6">
+                <img src="https://media.istockphoto.com/id/464902060/vector/solar-system-planets-diagram.jpg?s=612x612&w=0&k=20&c=yawrrevaqeTOlWdY0KgG-zDMhk_ilS7siOtfxiNeZOQ=" class="slide" alt="7">
+                <img src="https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="slide" alt="8">
+               </div>
+
+               <div class="main">
+                <div class="first">
+                    <b>Information Page Content: </b> <br>
+                    Our solar system consists of the Sun and the objects bound to it by gravity. These include eight planets, each orbiting the Sun in elliptical paths. The largest planet, Jupiter, is known for its massive size and its Great Red Spot, a giant storm that has lasted for centuries. The smallest planet, Mercury, orbits closest to the Sun and has extreme temperature variations. Earth, our home, is the only known planet to support life, thanks to its favorable atmosphere and conditions. Mars, often referred to as the "Red Planet," is known for its reddish appearance due to iron oxide (rust) on its surface, and scientists are eager to explore its potential for past or present life.                    
+                   </div> <br>
+                   <div class="second">
+                    Other planets, like Venus and Saturn, have fascinating characteristics. Venus has a dense atmosphere that traps heat, making it the hottest planet in the solar system, while Saturn is famous for its stunning rings made of ice and rock. Uranus and Neptune, both ice giants, are situated in the outer reaches of our solar system. Uranus is unique for rotating on its side, while Neptune has the fastest winds in the solar system.
+                   </div> <br>
+                   <div class="third">
+                    In addition to the planets, there are also many moons, dwarf planets like Pluto, asteroids, and comets that add to the complexity of our cosmic neighborhood. Our understanding of space and the universe beyond our solar system continues to evolve, with missions and advancements in technology allowing us to explore deeper into space.
+                   </div> <br>
+                   <div class="last">
+                    Space exploration, such as NASA's Mars missions and the launch of telescopes like the James Webb Space Telescope, are key to expanding our knowledge. These missions not only provide valuable data about our own solar system but also reveal the mysteries of distant galaxies and exoplanets beyond.
+                    <b>As humanity continues to explore and learn more about space, the possibilities for discovery and understanding the universe seem limitless.</b>
+                   </div> <br>
+               </div>
+               <table>
+                <tr>
+                    <th>Topic</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Our Solar System</td>
+                    <td>Our solar system consists of the Sun and the objects bound to it by gravity, including planets, moons, asteroids, and comets. The Sun provides light and energy to all of these objects.</td>
+                </tr>
+                <tr>
+                    <td>The Planets</td>
+                    <td>The solar system has eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. Each planet has its unique characteristics, from the hot surface of Venus to the giant rings of Saturn.</td>
+                </tr>
+                <tr>
+                    <td>Space Exploration</td>
+                    <td>Space exploration is crucial for understanding our universe. NASA’s Mars missions and telescopes like the James Webb Space Telescope help us learn more about the solar system and galaxies beyond.</td>
+                </tr>
+                <tr>
+                    <td>Other Objects in Space</td>
+                    <td>In addition to the planets, the solar system contains moons, dwarf planets like Pluto, and countless asteroids and comets. These objects provide insights into the formation of the solar system.</td>
+                </tr>
+            </table>
+        </main>
+        <footer>
+            <p> 2024 Galaxy Explorers. All rights reserved. </p>
+        </footer>
+    </body>
+</html>

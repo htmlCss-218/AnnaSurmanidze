@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" > 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <style>
+       @media screen and (max-width: 767px) {
+        body { background-color: rgb(36, 35, 56)} }
+        @media screen and (max-width: 768px) {
+        body {background-color:rgb(36, 35, 56);}  }
+        @media screen and (min-width: 1024px) {
+        body {background-color:rgb(36, 35, 56); } }
+    
+        .navigation {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(60, 85, 107); 
+            animation-name: galaxy;
+            animation-duration: 8s; 
+            }
+        .navigation a {
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 25px;
+            display: flex; }
+
+        .navigation a:hover{
+            background-color: black; }
+
+        .info { text-align: left;
+                font-size: 20px;
+                font-family: "Playfair Display", serif;
+                color: antiquewhite;
+                margin-top: 50px;
+                display: inline;
+             }
+    .main {
+        display: flex;
+    }
+    .comment {display: inline-block;
+            font-size: 25px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            margin-left: 33%;
+            margin-top: 11%;
+            border-radius: 5px;
+            box-shadow: 12px 12px 18px 18px rgb(60, 85, 107);
+            width: 35%;
+            text-align: center;
+           margin-bottom: 20%;
+           margin-right: 20%; }
+
+            .button {
+            background-color:rgb(214, 212, 219);
+            border-radius: 5px;
+            color: rgb(60, 85, 107);
+            padding: 15px 32px;
+            font-size: 16px;
+            cursor: pointer;
+           
+            margin-bottom: 15px;
+        }
+       
+        
+    </style>
+         <link rel="stylesheet" href="contactus.css">
+    </head>
+    <body>
+        <header>
+           <br><br> <H1> Discover the Universe, One Star at a Time </H1> <br><br>
+        </header>
+        <main>
+                <div class="navigation">
+                    <i class="fa-regular fa-heart" style="color: white; margin-top: 15px; font-size: 25px;"></i>
+                <a href="mainpage.html">Home</a>
+                <a href="aboutus.html">About us</a>
+                <a href="informationpage.html">Information</a>
+                <a href="freepage.html">Explore the Stars</a>
+                    <i class="fa-regular fa-heart" style="color: white; margin-top: 15px; font-size: 25px;"></i>
+                </div>
+                <div class="comment">
+                <p> Send your feedback to us: </p> <br><br>
+                
+                <label for="name">First name/Last name:</label> <br>
+                <input type="text" id="flname" name="flname"><br><br>
+                <label for="Email">Email:</label><br>
+                <input type="text" id="Email" name="Email"><br><br>
+                <label for="comment">Message:</label> <br>
+                <input type="text" id="message" name="message"><br><br>
+                <input class="button" type="submit" value="Send">
+            </div>
+        </main>
+        <footer>
+            <p> 2024 Galaxy Explorers. All rights reserved. </p>
+        </footer>
+    </body>
+</html>
